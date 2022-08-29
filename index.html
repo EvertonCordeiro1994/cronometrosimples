@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Cronômetro por Éverton Cordeiro</title>
+</head>
+
+<body>
+  <form name="form_main">
+    <main>
+      <div id="corpo">
+        <div id="circulo_dentro">
+          <div id="display">
+            <span class="mostrador" id="hour">00</span><h5 class="mostrador" >:</h5><span class="mostrador" id="minute">00</span><h5 class="mostrador" >:</h5><span class="mostrador" id="second">00</span><h5 class="mostrador" >:</h5><span
+              class="mostrador" id="millisecond">000</span>
+          </div>
+          <br>
+          <div>
+            <button class="btn btn-outline-danger" type="button" name="start"><iconify-icon icon="el:play"></iconify-icon></button>
+            <button class="btn btn-outline-danger"  type="button" name="pause"><iconify-icon icon="fa6-solid:pause"></iconify-icon></button>
+            <button class="btn btn-outline-danger" type="button" name="reset"><iconify-icon icon="fa-solid:stop"></iconify-icon></button>
+          </div>
+          <br>
+          <div>
+            <h5>Por Éverton Cordeiro</h5>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </form>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
