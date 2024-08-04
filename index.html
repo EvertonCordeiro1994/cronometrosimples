@@ -17,10 +17,23 @@
 <body class="bg-black flex flex-col items-center justify-center w-full h-screen gap-y-7"> 
   <main class="w-5/6 rounded-full flex flex-col items-center justify-center gap-y-8">
     <div id="mostrador" class="flex justify-between text-slate-200 w-full md:h-44">
-      <span id="mostrador_hora" class="text-5xl md:text-9xl text-center">00</span>
-      <span id="mostrador_minuto" class="w-1/4 text-5xl md:text-9xl text-center">00</span>
-      <span id="mostrador_segundo" class="w-1/4 text-5xl md:text-9xl text-center">00</span>
-      <span id="mostrador_milesimo" class="w-1/4 text-5xl md:text-9xl text-center">000</span>
+      <div class="flex flex-col text-center w-1/4 ">
+        <span>HORA</span>
+        <span id="mostrador_hora" class="text-5xl md:text-9xl text-center">00</span>
+      </div>
+      <div class="flex flex-col text-center w-1/4 ">
+        <span>MINUTO</span>
+        <span id="mostrador_minuto" class="text-5xl md:text-9xl text-center">00</span>
+      </div>
+      <div class="flex flex-col text-center w-1/4 ">
+        <span>SEGUNDO</span>
+        <span id="mostrador_segundo" class="text-5xl md:text-9xl text-center">00</span>
+      </div>
+      <div class="flex flex-col text-center w-1/4 ">
+        <span>MILÉSIMO</span>
+        <span id="mostrador_milesimo" class="text-5xl md:text-9xl text-center">000</span>
+      </div>
+
     </div>
     <div id="btns" class="flex justify-center text-slate-200 w-5/12 gap-x-16"> 
       <button id="btn_play" class="text-4xl md:text-6xl"><i class="fa-solid fa-play"></i></button>

@@ -1,10 +1,10 @@
 let hora = 0, minuto = 0, segundo = 0, milesimo = 0, contador;
 
 $('#btn_play').on('click', () => start());
-$('#btn_pause').on('click',() => pause());
+$('#btn_pause').on('click', () => pause());
 $('#btn_stop').on('click', () => reset());
 
-const start = () => contador = setInterval(() =>  timer() , 10);
+const start = () => contador = setInterval(() => timer(), 10);
 const pause = () => clearInterval(contador);
 
 function reset() {
@@ -45,14 +45,14 @@ function timer() {
 
   $('#mostrador_milesimo').text(returnData100(milesimo));
 
-  }
+}
 
 const returnData = (e) => e > 10 ? e : `0${e}`
 
 const returnData100 = (e) => {
-  if (e < 10) {
-    return `00${e}`;
-  } else if (e < 100) {
+  if (e < 10)  { return `00${e}` };
+
+  if (e < 100) {
     return `0${e}`;
   } else {
     return `${e}`;
