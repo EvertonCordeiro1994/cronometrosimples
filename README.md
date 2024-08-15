@@ -23,6 +23,4 @@ Este projeto foi desenvolvido para praticar habilidades em JavaScript, HTML e CS
 
 ![Imagem do Projeto](https://raw.githubusercontent.com/EvertonCordeiro1994/cronometrosimples/main/visualiza%C3%A7%C3%A3o%20pc.png)
 
----
 
-**Desenvolvido por Éverton Cordeiro**
